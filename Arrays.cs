@@ -3,17 +3,15 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine(Square.SqrtWithoutSqrt(64));
-        bool ans = PrimeOrNot.FindIt(5);
-        if (ans)
+        int[] arr = { 10, 20, 30, 40, 50 };
+        if (Sorted.Helper(arr))
         {
-            Console.WriteLine("It is a prime number");
+            Console.WriteLine("Yes");
         }
         else
         {
-            Console.WriteLine("It is not a prime number");
-        }
-
+            Console.WriteLine("No");
+       }
         
     }
 }
