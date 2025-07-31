@@ -3,13 +3,10 @@ class Program
 {
     public static void Main(string[] args)
     {
-        if (PalindromWord.isPalindromeWord("redi"))
-        {
-            Console.WriteLine("yes");
-        }
-        else
-        {
-            Console.WriteLine("no");
+        int[] arr = { 1, 2, 0, 4, 0, 5 };
+        MoveZeroesToEnd.Move(arr);
+        foreach (int a in arr) {
+            Console.WriteLine(a);
         }
     }
 }
