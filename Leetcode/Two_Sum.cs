@@ -1,5 +1,6 @@
-// this is solved using the 2 pointer approach
-
+/*this is 
+solved using the 2 pointer approach
+*/
 class Two_Sum
 {
     public int TwoSum(int[] arr, int target)
