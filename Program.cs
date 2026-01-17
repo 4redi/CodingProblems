@@ -3,21 +3,20 @@ class Program
 {
     public static void Main(string[] args)
     {
-        //MatrixOrient matrixOrient = new MatrixOrient();
-        //matrixOrient.matrix(new int[][]
-        //{
-        //    new int[] {0, 2, 0},
-        //    new int[] {4, 5, 6},
-        //    new int[] {7, 0, 9}
-        //});
+        AreaOfLargestSquare area=new AreaOfLargestSquare();
+    int[][] bl = new int[][] {
+            new int[] { 0, 0 },
+            new int[] { 1, 1 },
+            new int[] { 2, 2 }
+        };
+    int[][] tr = new int[][] {
+            new int[] { 3, 3 },
+            new int[] { 4, 4 },
+            new int[] { 5, 5 }
+        };
+    long result = area.largestSquareArea(bl, tr);
+    Console.WriteLine(result);
+        }}
 
-        MatrixSum matrixSum = new MatrixSum();
-        int[] result = matrixSum.MatrixMaxSum(new int[][]
-            {
-            new int[] {1, 2, 3},
-            new int[] {4, 5, 6},
-            new int[] {7, 8, 9}
-        });
-        Console.WriteLine("Row: " + result[0] + ", Max Sum: " + result[1]);
-    }
-}
+
+
