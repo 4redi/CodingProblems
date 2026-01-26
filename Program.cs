@@ -1,22 +1,13 @@
-﻿    using System.Collections.Generic;
+﻿using System.Collections.Generic;
 class Program
 {
     public static void Main(string[] args)
     {
-        AreaOfLargestSquare area=new AreaOfLargestSquare();
-    int[][] bl = new int[][] {
-            new int[] { 0, 0 },
-            new int[] { 1, 1 },
-            new int[] { 2, 2 }
-        };
-    int[][] tr = new int[][] {
-            new int[] { 3, 3 },
-            new int[] { 4, 4 },
-            new int[] { 5, 5 }
-        };
-    long result = area.largestSquareArea(bl, tr);
-    Console.WriteLine(result);
-        }}
+        Transpose trans = new Transpose();
+        int[,] matrix = new int[,] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 9, 10 } };
+        trans.TransposeMe(matrix);
+    }
+}
 
 
 
