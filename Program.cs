@@ -3,9 +3,11 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Transpose trans = new Transpose();
-        int[,] matrix = new int[,] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 9, 10 } };
-        trans.TransposeMe(matrix);
+        var res = OrderFHalf.Order([2,7,3,5,6,7]);
+        foreach(var i in res)
+        {
+            Console.WriteLine(string.Join(", ", i));
+        }
     }
 }
 
