@@ -10,7 +10,7 @@ namespace Testing1.UnitTests
 		{
 			string encodedText = "ch   ie   pr";
 			int rows = 3;
-			2075Solution solution = new 2075Solution();
+            Solution2075 solution = new Solution2075();
 			string result = solution.DecodeCiphertext(encodedText, rows);
 			Assert.Equal("cipher", result);
 		}
@@ -19,7 +19,7 @@ namespace Testing1.UnitTests
 		{
 			string encodedText = "iveo    eed   l te   olc";
 			int rows = 4;
-			2075Solution solution = new 2075Solution();
+            Solution2075 solution = new Solution2075();
 			string result = solution.DecodeCiphertext(encodedText, rows);
 			Assert.Equal("i love leetcode", result);
 
@@ -29,7 +29,7 @@ namespace Testing1.UnitTests
 		{
 			string encodedText = "coding";
 			int rows = 1;
-			2075Solution solution = new 2075Solution();
+            Solution2075 solution = new Solution2075();
 			string result = solution.DecodeCiphertext(encodedText, rows);
 			Assert.Equal("coding", result);
 		}
@@ -38,10 +38,10 @@ namespace Testing1.UnitTests
 		{
 			string encodedText = "bzqlagy                gxwd tx                uvqinyi                jjmdhhb                kjcm la                rxwcqnf                ycuxczg                wwnvnqz                bsdqkqr                ushfkzu                heny dw                qvbuagj                blawlga                wzhgxxg                tzb thk                shtxjof                feguqx";
 			int rows = 17;
-			2075Solution solution = new 2075Solution();
+            Solution2075 solution = new Solution2075();
 			string result = solution.DecodeCiphertext(encodedText, rows);
 			Assert.Equal("bgujkrywbuhqbwtsfzxvjjxcwssevlzzheqwqmcwundhnbahbtgldidmcxvqfyuwg xua nh qcnkk alxtjqgtyhlnzqqzdggxhoxyxibafgzruwjagkf", result);
 		}
 
-
+	}
 	}
