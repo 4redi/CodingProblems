@@ -1,8 +1,9 @@
-public class 2075Solution
+public class Solution2075
 {
     public string DecodeCiphertext(string encodedText, int rows)
     {
         if (rows == 1) return encodedText;
+
         int N = encodedText.Length;
         int cols = N / rows;
 
