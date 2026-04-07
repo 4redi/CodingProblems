@@ -1,3 +1,5 @@
+using System.Text;
+
 public class Solution2075
 {
     public string DecodeCiphertext(string encodedText, int rows)
