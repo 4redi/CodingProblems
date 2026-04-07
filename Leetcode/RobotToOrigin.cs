@@ -1,4 +1,4 @@
-public class LeetCode657
+public class Leetcode657
 {
        public bool JudgeCircle(string moves) {
         int x=0;
