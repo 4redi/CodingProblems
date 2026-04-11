@@ -7,6 +7,7 @@
     <Nullable>enable</Nullable>
 	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GenerateProgramFile>false</GenerateProgramFile>
+	  <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
 	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 
   </PropertyGroup>
