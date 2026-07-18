@@ -1,4 +1,4 @@
-public class Solution
+public class SolutionMaxIceCream
 {
     public int MaxIceCream(int[] c, int coins)
     {
